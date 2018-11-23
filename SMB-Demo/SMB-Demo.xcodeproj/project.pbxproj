@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A262088821A7B55A00678A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A262088721A7B55A00678A3F /* AppDelegate.m */; };
+		A262089021A7B55C00678A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A262088F21A7B55C00678A3F /* Assets.xcassets */; };
+		A262089321A7B55C00678A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A262089121A7B55C00678A3F /* LaunchScreen.storyboard */; };
+		A262089621A7B55C00678A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A262089521A7B55C00678A3F /* main.m */; };
+		A262089F21A7B5B400678A3F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A262089D21A7B5B400678A3F /* RootViewController.m */; };
+		A26208A021A7B5B400678A3F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A262089E21A7B5B400678A3F /* RootViewController.xib */; };
+		A26208B221A7B65800678A3F /* libtevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208A821A7B65800678A3F /* libtevent.a */; };
+		A26208B321A7B65800678A3F /* libwbclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208A921A7B65800678A3F /* libwbclient.a */; };
+		A26208B421A7B65800678A3F /* libsmbclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208AB21A7B65800678A3F /* libsmbclient.a */; };
+		A26208B521A7B65800678A3F /* libtalloc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208AD21A7B65800678A3F /* libtalloc.a */; };
+		A26208B621A7B65800678A3F /* libtdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208AF21A7B65800678A3F /* libtdb.a */; };
+		A26208BB21A7C67B00678A3F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208BA21A7C67B00678A3F /* SystemConfiguration.framework */; };
+		A26208BD21A7C68500678A3F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208BC21A7C68500678A3F /* libz.tbd */; };
+		A26208BF21A7C68B00678A3F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208BE21A7C68B00678A3F /* libiconv.tbd */; };
+		A26208C121A7C69400678A3F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A26208C021A7C69400678A3F /* libresolv.tbd */; };
+		A26208C221A7DA5600678A3F /* KxSMBProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A26208B121A7B65800678A3F /* KxSMBProvider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A262088321A7B55A00678A3F /* SMB-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMB-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A262088621A7B55A00678A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A262088721A7B55A00678A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A262088F21A7B55C00678A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A262089221A7B55C00678A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A262089421A7B55C00678A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A262089521A7B55C00678A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A262089C21A7B5B400678A3F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A262089D21A7B5B400678A3F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A262089E21A7B5B400678A3F /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A26208A621A7B65800678A3F /* KxSMBProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxSMBProvider.h; sourceTree = "<group>"; };
+		A26208A821A7B65800678A3F /* libtevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtevent.a; sourceTree = "<group>"; };
+		A26208A921A7B65800678A3F /* libwbclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwbclient.a; sourceTree = "<group>"; };
+		A26208AA21A7B65800678A3F /* libsmbclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libsmbclient.h; sourceTree = "<group>"; };
+		A26208AB21A7B65800678A3F /* libsmbclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsmbclient.a; sourceTree = "<group>"; };
+		A26208AC21A7B65800678A3F /* talloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = talloc.h; sourceTree = "<group>"; };
+		A26208AD21A7B65800678A3F /* libtalloc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtalloc.a; sourceTree = "<group>"; };
+		A26208AE21A7B65800678A3F /* talloc_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = talloc_stack.h; sourceTree = "<group>"; };
+		A26208AF21A7B65800678A3F /* libtdb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtdb.a; sourceTree = "<group>"; };
+		A26208B121A7B65800678A3F /* KxSMBProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxSMBProvider.m; sourceTree = "<group>"; };
+		A26208BA21A7C67B00678A3F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A26208BC21A7C68500678A3F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A26208BE21A7C68B00678A3F /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A26208C021A7C69400678A3F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A262088021A7B55A00678A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26208C121A7C69400678A3F /* libresolv.tbd in Frameworks */,
+				A26208BF21A7C68B00678A3F /* libiconv.tbd in Frameworks */,
+				A26208BD21A7C68500678A3F /* libz.tbd in Frameworks */,
+				A26208BB21A7C67B00678A3F /* SystemConfiguration.framework in Frameworks */,
+				A26208B621A7B65800678A3F /* libtdb.a in Frameworks */,
+				A26208B521A7B65800678A3F /* libtalloc.a in Frameworks */,
+				A26208B421A7B65800678A3F /* libsmbclient.a in Frameworks */,
+				A26208B221A7B65800678A3F /* libtevent.a in Frameworks */,
+				A26208B321A7B65800678A3F /* libwbclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A262087A21A7B55A00678A3F = {
+			isa = PBXGroup;
+			children = (
+				A262088521A7B55A00678A3F /* SMB-Demo */,
+				A262088421A7B55A00678A3F /* Products */,
+				A26208B921A7C67B00678A3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A262088421A7B55A00678A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A262088321A7B55A00678A3F /* SMB-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A262088521A7B55A00678A3F /* SMB-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A26208A321A7B65800678A3F /* samba */,
+				A262088621A7B55A00678A3F /* AppDelegate.h */,
+				A262088721A7B55A00678A3F /* AppDelegate.m */,
+				A262089C21A7B5B400678A3F /* RootViewController.h */,
+				A262089D21A7B5B400678A3F /* RootViewController.m */,
+				A262089E21A7B5B400678A3F /* RootViewController.xib */,
+				A262088F21A7B55C00678A3F /* Assets.xcassets */,
+				A262089121A7B55C00678A3F /* LaunchScreen.storyboard */,
+				A262089421A7B55C00678A3F /* Info.plist */,
+				A262089521A7B55C00678A3F /* main.m */,
+			);
+			path = "SMB-Demo";
+			sourceTree = "<group>";
+		};
+		A26208A321A7B65800678A3F /* samba */ = {
+			isa = PBXGroup;
+			children = (
+				A26208A721A7B65800678A3F /* lib */,
+				A26208A621A7B65800678A3F /* KxSMBProvider.h */,
+				A26208B121A7B65800678A3F /* KxSMBProvider.m */,
+			);
+			path = samba;
+			sourceTree = SOURCE_ROOT;
+		};
+		A26208A721A7B65800678A3F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A26208A821A7B65800678A3F /* libtevent.a */,
+				A26208A921A7B65800678A3F /* libwbclient.a */,
+				A26208AA21A7B65800678A3F /* libsmbclient.h */,
+				A26208AB21A7B65800678A3F /* libsmbclient.a */,
+				A26208AC21A7B65800678A3F /* talloc.h */,
+				A26208AD21A7B65800678A3F /* libtalloc.a */,
+				A26208AE21A7B65800678A3F /* talloc_stack.h */,
+				A26208AF21A7B65800678A3F /* libtdb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A26208B921A7C67B00678A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26208C021A7C69400678A3F /* libresolv.tbd */,
+				A26208BE21A7C68B00678A3F /* libiconv.tbd */,
+				A26208BC21A7C68500678A3F /* libz.tbd */,
+				A26208BA21A7C67B00678A3F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A262088221A7B55A00678A3F /* SMB-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A262089921A7B55C00678A3F /* Build configuration list for PBXNativeTarget "SMB-Demo" */;
+			buildPhases = (
+				A262087F21A7B55A00678A3F /* Sources */,
+				A262088021A7B55A00678A3F /* Frameworks */,
+				A262088121A7B55A00678A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMB-Demo";
+			productName = "SMB-Demo";
+			productReference = A262088321A7B55A00678A3F /* SMB-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A262087B21A7B55A00678A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					A262088221A7B55A00678A3F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A262087E21A7B55A00678A3F /* Build configuration list for PBXProject "SMB-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A262087A21A7B55A00678A3F;
+			productRefGroup = A262088421A7B55A00678A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A262088221A7B55A00678A3F /* SMB-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A262088121A7B55A00678A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A262089321A7B55C00678A3F /* LaunchScreen.storyboard in Resources */,
+				A262089021A7B55C00678A3F /* Assets.xcassets in Resources */,
+				A26208A021A7B5B400678A3F /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A262087F21A7B55A00678A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A262089621A7B55C00678A3F /* main.m in Sources */,
+				A26208C221A7DA5600678A3F /* KxSMBProvider.m in Sources */,
+				A262088821A7B55A00678A3F /* AppDelegate.m in Sources */,
+				A262089F21A7B5B400678A3F /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A262089121A7B55C00678A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A262089221A7B55C00678A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A262089721A7B55C00678A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A262089821A7B55C00678A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A262089A21A7B55C00678A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMB-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/samba/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.SMB-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A262089B21A7B55C00678A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SMB-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/samba/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.SMB-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A262087E21A7B55A00678A3F /* Build configuration list for PBXProject "SMB-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A262089721A7B55C00678A3F /* Debug */,
+				A262089821A7B55C00678A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A262089921A7B55C00678A3F /* Build configuration list for PBXNativeTarget "SMB-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A262089A21A7B55C00678A3F /* Debug */,
+				A262089B21A7B55C00678A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A262087B21A7B55A00678A3F /* Project object */;
+}
